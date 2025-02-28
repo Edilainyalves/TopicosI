@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-book Ilimitado</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Transformando Produtividade em Hábitos</h1>
+            <p>Descubra o Segredo da Alta Produtividade Diária - Pegue Seu eBook Agora!</p>
+        </header>
+
+        <section class="ebook-info">
+            <img src="ebook.jpeg" alt="Capa do eBook">
+            <ul>
+                <li>Mais de 70 páginas de conteúdo exclusivo</li>
+                <li>Acesso Vitalício</li>
+                <li>PDF interativo e otimizado para leitura</li>
+                <li>Bônus especial para os primeiros compradores</li>
+            </ul>
+            <p class="preco">Por apenas R$39,90<</p>
+        </section>
+
+        <section class="depoimentos">
+            <h2>O que dizem sobre o eBook</h2>
+            <div class="depoimento">
+                <p>"Esse eBook mudou minha rotina! As dicas são práticas e eficientes."</p>
+                <span>- Pedro Santos </span>
+            </div>
+            <div class="depoimento">
+                <p>"Melhorei minha produtividade em poucos dias. Vale cada centavo!"</p>
+                <span>- Mariana Barbosa</span>
+            </div>
+        </section>
+
+        <section class="comprar">
+            <h2>Adquira Agora</h2>
+            <p>Insira seu email para continuar a compra:</p>
+            <input type="email" id="email" placeholder="Seu email:" required>
+            <h3>Escolha seu método de pagamento:</h3>
+            <button onclick="pagamento('pix')">Pagar com PIX</button>
+            <button onclick="pagamento('cartao')">Pagar com Cartão</button>
+            <p id="mensagem"></p>
+            <a id="download-link" href="ebook.pdf" download>Baixe Seu E-Book</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 E-book Ilimitado. Todos os direitos reservados.</p>
+            <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
