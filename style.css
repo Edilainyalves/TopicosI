@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 28px;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #555;
+}
+
+.ebook-info img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.ebook-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ebook-info li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-top: 15px;
+}
+
+.depoimentos {
+    margin: 40px 0;
+    padding: 20px;
+    background: #e3ecff;
+    border-radius: 10px;
+}
+
+.depoimentos h2 {
+    color: #4a90e2;
+}
+
+.depoimento {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.depoimento p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.comprar input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.comprar button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s ease;
+}
+
+.comprar button:hover {
+    background-color: #357abd;
+}
+
+#mensagem {
+    font-size: 14px;
+    color: green;
+    margin-top: 10px;
+}
+
+#download-link {
+    display: none;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #357abd;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: block;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #4a90e2;
+    color: white;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #ffdd57;
+    text-decoration: none;
+    font-weight: bold;
+}
